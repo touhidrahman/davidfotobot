@@ -1,0 +1,21 @@
+{
+  "name": "davidfoto",
+  "version": "1.0.0",
+  "description": "A nodejs bot to download photography of david d from davidfoto.com.ua",
+  "main": "bot.js",
+  "scripts": {
+    "start": "node bot.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "bot"
+  ],
+  "author": "Touhidur Rahman",
+  "license": "ISC",
+  "dependencies": {
+    "async": "^2.2.0",
+    "cheerio": "^0.22.0",
+    "fs-extra": "^2.1.2",
+    "request": "^2.81.0"
+  }
+}
